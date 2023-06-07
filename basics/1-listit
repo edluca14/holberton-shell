@@ -1,2 +1,5 @@
-#!/bin/bash
-ls -l
+!/bin/bash
+ls
+Documents
+Applications
+Music
