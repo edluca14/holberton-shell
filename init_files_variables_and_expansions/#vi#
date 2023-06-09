@@ -1,0 +1,381 @@
+root@664a81f303e9:~# cd holbertonschool-shell
+root@664a81f303e9:~/holbertonschool-shell# ls
+basics  io_redirections_and_filters  permissions  README.md
+root@664a81f303e9:~/holbertonschool-shell# cd io_redirections_and_filters/
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# ls
+0-hello_world  10-no_more_js  1-confused_smiley  2-hellofile  3-twofiles  4-lastlines  5-firstlines  6-third_line  7-file  8-cwd_state
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 11-directories
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod 11-directories
+chmod: missing operand 11-
+Try 'chmod --help' for more information.
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 11-directories
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 11-directories
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# ls
+0-hello_world  10-no_more_js  11-directories  1-confused_smiley  2-hellofile  3-twofiles  4-lastlines  5-firstlines  6-third_line  7-f
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'expo tilin'
+[master 1cb0dcc] expo tilin
+ 1 file changed, 2 insertions(+)
+ create mode 100755 io_redirections_and_filters/11-directories
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 377 bytes | 377.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/edluca14/holbertonschool-shell.git
+   55ec8fa..1cb0dcc  master -> master
+   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 11-directories
+   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'expo tilin 2'
+   [master 4da44c7] expo tilin 2
+    1 file changed, 1 insertion(+), 1 deletion(-)
+    root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+    Enumerating objects: 7, done.
+    Counting objects: 100% (7/7), done.
+    Delta compression using up to 2 threads
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (4/4), 364 bytes | 364.00 KiB/s, done.
+    Total 4 (delta 2), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+    To https://github.com/edluca14/holbertonschool-shell.git
+       1cb0dcc..4da44c7  master -> master
+       root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 12-newest_files
+       root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 12-newest_files
+       root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 12-newest_files
+       root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+       root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'llll'
+       [master 55e4e17] llll
+        1 file changed, 2 insertions(+)
+	 create mode 100755 io_redirections_and_filters/12-newest_files
+	 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+	 Enumerating objects: 6, done.
+	 Counting objects: 100% (6/6), done.
+	 Delta compression using up to 2 threads
+	 Compressing objects: 100% (3/3), done.
+
+
+
+
+
+
+
+
+
+
+
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'grep'
+[master 00c4d4a] grep
+ 1 file changed, 2 insertions(+)
+  create mode 100755 io_redirections_and_filters/14-findthatword
+  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+  Enumerating objects: 6, done.
+  Counting objects: 100% (6/6), done.
+  Delta compression using up to 2 threads
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (4/4), 367 bytes | 367.00 KiB/s, done.
+  Total 4 (delta 2), reused 0 (delta 0)
+  remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+  To https://github.com/edluca14/holbertonschool-shell.git
+     ba8684a..00c4d4a  master -> master
+     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 15-counttatword
+     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 15-counttatword
+     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 15-counttatword
+     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'auch'
+     [master e56b249] auch
+      1 file changed, 2 insertions(+)
+       create mode 100755 io_redirections_and_filters/15-counttatword
+       root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+       Enumerating objects: 6, done.
+       Counting objects: 100% (6/6), done.
+       Delta compression using up to 2 threads
+       Compressing objects: 100% (3/3), done.
+       Writing objects: 100% (4/4), 354 bytes | 354.00 KiB/s, done.
+       Total 4 (delta 2), reused 0 (delta 0)
+       remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+       To https://github.com/edluca14/holbertonschool-shell.git
+          00c4d4a..e56b249  master -> master
+	  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 15-counttatword
+	  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .}
+	  fatal: pathspec '.}' did not match any files
+	  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+	  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'gothic'
+	  [master bf23df8] gothic
+	   1 file changed, 1 insertion(+), 1 deletion(-)
+	   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+	   Enumerating objects: 7, done.
+	   Counting objects: 100% (7/7), done.
+	   Delta compression using up to 2 threads
+	   Compressing objects: 100% (3/3), done.
+	   Writing objects: 100% (4/4), 352 bytes | 352.00 KiB/s, done.
+	   Total 4 (delta 2), reused 0 (delta 0)
+	   remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+	   To https://github.com/edluca14/holbertonschool-shell.git
+	      e56b249..bf23df8  master -> master
+	      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# ls
+	      0-hello_world   12-newest_files  15-counttatword    3-twofiles    6-third_line  9-duplicate_last_line
+	      10-no_more_js   13-unique        1-confused_smiley  4-lastlines   7-file        README.md
+	      11-directories  14-findthatword  2-hellofile        5-firstlines  8-cwd_state
+	      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# mv 15-counttatword 15-countthatword
+	      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# ls
+	      0-hello_world   12-newest_files  15-countthatword   3-twofiles    6-third_line  9-duplicate_last_line
+	      10-no_more_js   13-unique        1-confused_smiley  4-lastlines   7-file        README.md
+	      11-directories  14-findthatword  2-hellofile        5-firstlines  8-cwd_state
+	      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 15-countthatword
+	      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+	      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'pajin jeje'
+	      [master af3833e] pajin jeje
+	       1 file changed, 0 insertions(+), 0 deletions(-)
+	        rename io_redirections_and_filters/{15-counttatword => 15-countthatword} (100%)
+		root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+		Enumerating objects: 5, done.
+		Counting objects: 100% (5/5), done.
+		Delta compression using up to 2 threads
+		Compressing objects: 100% (3/3), done.
+		Writing objects: 100% (3/3), 289 bytes | 289.00 KiB/s, done.
+		Total 3 (delta 2), reused 0 (delta 0)
+		remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+		To https://github.com/edluca14/holbertonschool-shell.git
+		   bf23df8..af3833e  master -> master
+		   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 16-whatsnext
+		   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x
+		   chmod: missing operand after ‘u+x’
+		   Try 'chmod --help' for more information.
+		   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 16-whatsnext
+		   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 16-whatsnext
+		   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+		   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'fabio sungurlian'
+		   [master 4781a8a] fabio sungurlian
+		    1 file changed, 2 insertions(+)
+		     create mode 100755 io_redirections_and_filters/16-whatsnext
+		     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+		     Enumerating objects: 6, done.
+		     Counting objects: 100% (6/6), done.
+		     Delta compression using up to 2 threads
+		     Compressing objects: 100% (3/3), done.
+		     Writing objects: 100% (4/4), 378 bytes | 378.00 KiB/s, done.
+		     Total 4 (delta 2), reused 0 (delta 0)
+		     remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+		     To https://github.com/edluca14/holbertonschool-shell.git
+		        af3833e..4781a8a  master -> master
+			root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 17-hidethisword
+			root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 17-hidethisword
+			root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 17-hidethisword
+			root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+			root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git git commit -m 'post malote'
+			git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+	root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'post malone'
+	[master 1c80f89] post malone
+	 1 file changed, 2 insertions(+)
+	  create mode 100755 io_redirections_and_filters/17-hidethisword
+	  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+	  Enumerating objects: 6, done.
+	  Counting objects: 100% (6/6), done.
+	  Delta compression using up to 2 threads
+	  Compressing objects: 100% (3/3), done.
+	  Writing objects: 100% (4/4), 374 bytes | 3.00 KiB/s, done.
+	  Total 4 (delta 2), reused 0 (delta 0)
+	  remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+	  To https://github.com/edluca14/holbertonschool-shell.git
+	     4781a8a..1c80f89  master -> master
+	     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 18-letteronly
+	     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 18-letteronly
+	     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 18-letteronly
+	     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+	     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'neter suna'
+	     [master 32105a4] neter suna
+	      1 file changed, 2 insertions(+)
+	       create mode 100755 io_redirections_and_filters/18-letteronly
+	       root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+	       Enumerating objects: 6, done.
+	       Counting objects: 100% (6/6), done.
+	       Delta compression using up to 2 threads
+	       Compressing objects: 100% (3/3), done.
+	       Writing objects: 100% (4/4), 364 bytes | 364.00 KiB/s, done.
+	       Total 4 (delta 2), reused 0 (delta 0)
+	       remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+	       To https://github.com/edluca14/holbertonschool-shell.git
+	          1c80f89..32105a4  master -> master
+		  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 18-letteronly
+		  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+		  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'amogus'
+		  [master d6ca877] amogus
+		   1 file changed, 1 insertion(+), 1 deletion(-)
+		   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+		   Enumerating objects: 7, done.
+		   Counting objects: 100% (7/7), done.
+		   Delta compression using up to 2 threads
+		   Compressing objects: 100% (3/3), done.
+		   Writing objects: 100% (4/4), 346 bytes | 346.00 KiB/s, done.
+		   Total 4 (delta 2), reused 0 (delta 0)
+		   remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+		   To https://github.com/edluca14/holbertonschool-shell.git
+		      32105a4..d6ca877  master -> master
+		      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 18-letteronly
+		      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+		      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'sakjsjaksa'
+		      [master cf51340] sakjsjaksa
+		       1 file changed, 1 insertion(+), 1 deletion(-)
+		       root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+		       Enumerating objects: 7, done.
+		       Counting objects: 100% (7/7), done.
+		       Delta compression using up to 2 threads
+		       Compressing objects: 100% (4/4), done.
+		       Writing objects: 100% (4/4), 370 bytes | 370.00 KiB/s, done.
+		       Total 4 (delta 2), reused 0 (delta 0)
+		       remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+		       To https://github.com/edluca14/holbertonschool-shell.git
+		          d6ca877..cf51340  master -> master
+			  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 18-letteronly
+			  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+			  root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'dababy'
+			  [master ce874df] dababy
+			   1 file changed, 1 insertion(+), 1 deletion(-)
+			   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+			   Enumerating objects: 7, done.
+			   Counting objects: 100% (7/7), done.
+			   Delta compression using up to 2 threads
+			   Compressing objects: 100% (3/3), done.
+			   Writing objects: 100% (4/4), 363 bytes | 363.00 KiB/s, done.
+			   Total 4 (delta 2), reused 0 (delta 0)
+			   remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+			   To https://github.com/edluca14/holbertonschool-shell.git
+			      cf51340..ce874df  master -> master
+			      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 19-AZ
+			      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 1
+			      10-no_more_js      12-newest_files    14-findthatword    16-whatsnext       18-letteronly      1-confused_smiley
+			      11-directories     13-unique          15-countthatword   17-hidethisword    19-AZ
+			      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 1
+			      10-no_more_js      12-newest_files    14-findthatword    16-whatsnext       18-letteronly      1-confused_smiley
+			      11-directories     13-unique          15-countthatword   17-hidethisword    19-AZ
+			      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 19-AZ
+			      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 19-AZ
+			      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+			      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'sasasa'
+			      [master a67243a] sasasa
+			       1 file changed, 2 insertions(+)
+			        create mode 100755 io_redirections_and_filters/19-AZ
+				root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+				Enumerating objects: 6, done.
+				Counting objects: 100% (6/6), done.
+				Delta compression using up to 2 threads
+				Compressing objects: 100% (3/3), done.
+				Writing objects: 100% (4/4), 354 bytes | 354.00 KiB/s, done.
+				Total 4 (delta 2), reused 0 (delta 0)
+				remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+				To https://github.com/edluca14/holbertonschool-shell.git
+				   ce874df..a67243a  master -> master
+				   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 20-hiago
+				   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 20-hiago
+				   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 20-hiago
+				   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+				   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'arrebatao en la jeepeta'
+				   [master c700734] arrebatao en la jeepeta
+				    1 file changed, 2 insertions(+)
+				     create mode 100755 io_redirections_and_filters/20-hiago
+				     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+				     Enumerating objects: 6, done.
+				     Counting objects: 100% (6/6), done.
+				     Delta compression using up to 2 threads
+				     Compressing objects: 100% (3/3), done.
+				     Writing objects: 100% (4/4), 359 bytes | 359.00 KiB/s, done.
+				     Total 4 (delta 2), reused 0 (delta 0)
+				     remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+				     To https://github.com/edluca14/holbertonschool-shell.git
+				        a67243a..c700734  master -> master
+					root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 20-hiago
+					root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+					root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'arrebatao'
+					[master e1ac294] arrebatao
+					 1 file changed, 1 insertion(+), 1 deletion(-)
+					 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+					 Enumerating objects: 7, done.
+					 Counting objects: 100% (7/7), done.
+					 Delta compression using up to 2 threads
+					 Compressing objects: 100% (3/3), done.
+					 Writing objects: 100% (4/4), 341 bytes | 341.00 KiB/s, done.
+					 Total 4 (delta 2), reused 0 (delta 0)
+					 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+					 To https://github.com/edluca14/holbertonschool-shell.git
+					    c700734..e1ac294  master -> master
+					    root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 20-hiago
+					    root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+					    root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'sakjjska'
+					    [master 066b2a6] sakjjska
+					     1 file changed, 1 insertion(+), 1 deletion(-)
+					     root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+					     Enumerating objects: 7, done.
+					     Counting objects: 100% (7/7), done.
+					     Delta compression using up to 2 threads
+					     Compressing objects: 100% (3/3), done.
+					     Writing objects: 100% (4/4), 345 bytes | 345.00 KiB/s, done.
+					     Total 4 (delta 2), reused 0 (delta 0)
+					     remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+					     To https://github.com/edluca14/holbertonschool-shell.git
+					        e1ac294..066b2a6  master -> master
+						root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 20-hiago
+						root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+						root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'arrebataont'
+						[master ccfaee7] arrebataont
+						 1 file changed, 1 insertion(+), 1 deletion(-)
+						 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+						 Enumerating objects: 7, done.
+						 Counting objects: 100% (7/7), done.
+						 Delta compression using up to 2 threads
+						 Compressing objects: 100% (3/3), done.
+						 Writing objects: 100% (4/4), 347 bytes | 347.00 KiB/s, done.
+						 Total 4 (delta 2), reused 0 (delta 0)
+						 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+						 To https://github.com/edluca14/holbertonschool-shell.git
+						    066b2a6..ccfaee7  master -> master
+						    root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 21-reverse
+						    root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 21-reverse
+						    root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 21-reverse
+						    root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+						    root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m '21savage'
+						    [master 528a7a0] 21savage
+						     1 file changed, 2 insertions(+)
+						      create mode 100755 io_redirections_and_filters/21-reverse
+						      root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+						      Enumerating objects: 6, done.
+						      Counting objects: 100% (6/6), done.
+						      Delta compression using up to 2 threads
+						      Compressing objects: 100% (3/3), done.
+						      Writing objects: 100% (4/4), 346 bytes | 173.00 KiB/s, done.
+						      Total 4 (delta 2), reused 0 (delta 0)
+						      remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+						      To https://github.com/edluca14/holbertonschool-shell.git
+						         ccfaee7..528a7a0  master -> master
+							 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# touch 22-users_and_homes
+							 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 21-reverse
+							 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 21-reverse
+							 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# chmod u+x 22-users_and_homes
+							 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# ls
+							 0-hello_world    13-unique         17-hidethisword    20-hiago            3-twofiles    7-file
+							 10-no_more_js    14-findthatword   18-letteronly      21-reverse          4-lastlines   8-cwd_state
+							 11-directories   15-countthatword  19-AZ              22-users_and_homes  5-firstlines  9-duplicate_last_line
+							 12-newest_files  16-whatsnext      1-confused_smiley  2-hellofile         6-third_line  README.md
+							 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# vi 22-users_and_homes
+							 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git add .
+							 root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git commit -m 'prueba'
+							 [master 95db136] prueba
+							  1 file changed, 2 insertions(+)
+							   create mode 100755 io_redirections_and_filters/22-users_and_homes
+							   root@664a81f303e9:~/holbertonschool-shell/io_redirections_and_filters# git push
+							   Enumerating objects: 6, done.
+							   Counting objects: 100% (6/6), done.
+							   Delta compression using up to 2 threads
+							   Compressing objects: 100% (3/3), done.
+							   Writing objects: 100% (4/4), 361 bytes | 361.00 KiB/s, done.
+							   Total 4 (delta 2), reused 0 (delta 0)
+							   remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+							   To https://github.com/edluca14/holbertonschool-shell.git
+							      528a7a0..95db136  master -> master
+							      ~directoriesafter 
