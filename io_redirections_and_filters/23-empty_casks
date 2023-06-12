@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type d f -empty | tr ':' '\n'
+find ./ -type d -empty | ls -la | 
